@@ -27,9 +27,25 @@
     #location-icon{
         position: absolute;
         left: 0.5rem;
+        font-size: 30px;
     }
     #search-icon{
         position: absolute;
         right: 1rem;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .search-box > form {
+        input{
+            font-size: 0.75rem;
+            padding: 0.5rem 1.5rem;
+        }
+
+        #location-icon,
+        #search-icon{
+            font-size: 15px;
+        }
     }
 }

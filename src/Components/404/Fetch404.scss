@@ -13,3 +13,14 @@
         width: 400px;
     }
 }
+
+@media (max-width: 640px) {
+    .error{
+        span{
+            font-size: 1rem;
+        }
+        img{
+            width: 200px;
+        }
+    }
+}

@@ -27,3 +27,27 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+    .other-decription-container{
+        margin-top: 1rem;
+        .col{
+            gap: 1rem;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            .col-description{
+                #data{
+                    font-size: 1.25rem;
+                    line-height: 1.5rem;
+                    font-weight: bold;
+                }
+                #heading{
+                    font-size: 0.5rem;
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}

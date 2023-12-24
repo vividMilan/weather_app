@@ -91,13 +91,7 @@ const WeatherApp = () => {
           fetchWeather = {fetchWeather}
         />
         {isLoading && 
-          <p style={{
-            display: "flex",
-            height: '100%',
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: "3rem"
-          }}>Loading...</p>
+          <p className='loading'>Loading...</p>
         }
         {!isLoading && !fetchError && (
           <>

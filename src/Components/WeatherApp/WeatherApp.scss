@@ -5,7 +5,7 @@
     border-radius: 0.25rem;
     border: 1px solid rgba(255, 255, 255, 0.335);
     backdrop-filter: blur(25px);
-    padding: 3rem 2rem;
+    padding: 4rem 3rem;
     color: white;
     .temp{
         text-align: center;
@@ -14,6 +14,14 @@
         font-weight: bold;
         display: block;
     }
+}
+
+.loading{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 
 .default{
@@ -25,4 +33,25 @@
     backdrop-filter: blur(25px);
     padding: 3rem 2rem;
     color: white; 
+}
+
+@media (max-width: 640px) {
+
+    .container{
+        width: 300px;
+        height: 400px;
+        padding: 2rem 1rem;
+        .temp{
+            font-size: 3rem;
+        }
+    }
+    .default{
+        width: 300px !important;
+        padding: 2rem 1rem;
+        height: auto;
+    }
+
+    .loading{
+        font-size: 1.5rem;
+    }
 }
