@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat&family=Outfit&family=Poppins&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+  --font-base: 'Poppins';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-base), sans-serif;
+}
+
+.hide{
+  display: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}

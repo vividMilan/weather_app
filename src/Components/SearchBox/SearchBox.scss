@@ -1,0 +1,35 @@
+.search-box > form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    input{
+        width: 100%;
+        background: transparent;
+        font-family: inherit;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+        border: none;
+        position: absolute;
+        padding: 1rem 3rem;
+        z-index: -1;
+        border: 1px rgba(255, 255, 255, 0.372) solid;
+        text-transform: uppercase;
+        color: inherit;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            text-transform: capitalize;
+            color: rgba(255, 255, 255, 0.716);
+        }
+    }
+    #location-icon{
+        position: absolute;
+        left: 0.5rem;
+    }
+    #search-icon{
+        position: absolute;
+        right: 1rem;
+    }
+}

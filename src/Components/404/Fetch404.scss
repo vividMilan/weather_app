@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    span{
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-transform: capitalize;
+    }
+    img{
+        width: 400px;
+    }
+}

@@ -1,0 +1,29 @@
+.other-decription-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+        .col-description{
+            display: flex;
+            flex-direction: column;
+            #data{
+                font-size: 2.5rem;
+                line-height: 3rem;
+                font-weight: bold;
+            }
+            #heading{
+                font-size: 1rem;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

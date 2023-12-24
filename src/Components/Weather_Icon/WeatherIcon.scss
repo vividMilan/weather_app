@@ -1,0 +1,14 @@
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+    span{
+        font-size: 2rem;
+        margin-top: 1rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+        color: white;
+    }
+}

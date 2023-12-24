@@ -1,0 +1,28 @@
+.container {
+    width: 600px;
+    height: 750px;
+    min-width: 200px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.335);
+    backdrop-filter: blur(25px);
+    padding: 3rem 2rem;
+    color: white;
+    .temp{
+        text-align: center;
+        margin-top: -1rem;
+        font-size: 6rem;
+        font-weight: bold;
+        display: block;
+    }
+}
+
+.default{
+    width: 600px !important;
+    height: auto !important;
+    min-width: 200px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.335);
+    backdrop-filter: blur(25px);
+    padding: 3rem 2rem;
+    color: white; 
+}
